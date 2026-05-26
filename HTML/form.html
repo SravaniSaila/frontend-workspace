@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form  action="https://jsonplaceholder.typicode.com/posts" method="POST">
+        <!-- Form submission action (api endpoint is given)-->
+        <!--Input-->
+    
+        <p><h1>Input Fields</h1>
+        <input type="text" name="name" placeholder="Enter your name" required></p>
+        <p>
+        <input type="email" name="email" placeholder="Enter your email" required></p>
+        <p>
+        <input type="password" name="password" placeholder="Enter your password" required>
+        </p>
+
+        <br>
+        <!--Radio Buttons-->
+        <p><h1>Radio Buttons</h1>
+            <label for="gender" >Enter your gender:</label>
+            <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" >
+        </p>
+
+        <!--Check Boxes-->
+        <p><h1>Check Boxes</h1>
+            <label>Enter your Skills:</label>
+            <label for="java">Java</label>
+            <input type="checkbox" id="java">
+
+            <label for="html" >HTML</label>
+            <input type="checkbox" id="html" checked></input>
+
+            <label for="css">CSS</label>
+            <input type="checkbox" id="css"></input>
+
+            <label for="js">JS</label>
+            <input type="checkbox" id="js"></input>
+
+            <h6>html is checked by default : checked attribute</h6>
+        </p>
+
+        <!--Select Dropdown-->
+        <p>
+            <h1>Select Dropdown</h1>
+            <select name="" id="" required>
+                <option value="" disabled selected >Choose batch</option>
+                <option value="">25th batch</option>
+                <option value="">26th batch</option>
+                <option value="">27th btach</option>
+                <option value="">28th btach</option>
+            </select>
+            <h6>disabled : option is not selectable</h6>
+            <h6>selected : option is selected by default</h6>
+            <h6>required : option must be selected</h6>
+        </p>
+
+        <!--Submit Button-->
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+
+    </form>
+</body>
+</html>
