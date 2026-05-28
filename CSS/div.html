@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 200px;
+            height: 300px;
+            border: 2px solid black;
+        }
+        .div-container{
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <p>used to group elements and apply styles to them. 
+        It is a block-level element that can contain other HTML 
+        elements, such as text, images, and other divs. The div 
+        element does not have any semantic meaning on its own, 
+        but it is commonly used for layout and styling purposes 
+        in web development.</p>
+        <br>
+    <div class="container">
+        <p>hello</p>
+        <p>world</p>
+    </div>
+    <br>
+
+    <p>section is a semantic element that is used to group related content together. 
+        It is also a block-level element that can contain other HTML elements, 
+        such as text, images, and other sections. The section element is typically 
+        used to divide a webpage into different sections or topics, and it can be 
+        styled using CSS just like any other HTML element.</p>
+    <br>
+    <section class="container">
+        <p>heading</p>
+        <p>paragraph</p>
+    </section>
+    <br>
+
+    <p>div vs section</p>
+    <p>div is a generic container element that has no semantic meaning,
+         while section is a semantic element that is used to group related 
+         content together. 
+        div is often used for layout and styling purposes, while section is 
+        used to divide a webpage into different sections or topics. When 
+        using div, it is important to provide additional context through class 
+        names or other attributes to indicate the purpose of the container, 
+        while section provides inherent meaning through its name.</p>
+
+        <br><br>
+    <div class="container div-container">
+        <p>div with 2 class</p>
+    </div>
+</body>
+</html>

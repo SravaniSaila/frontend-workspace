@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        p{
+            background-color: rgb(211, 84, 84);
+        }
+        h4{
+            background-color: rgb(221, 130, 130);
+        }
+        #id-1{
+            background-color: rgb(125, 216, 143);
+        }
+        .class-1{
+            background-color: rgb(222, 146, 204);
+        }
+    </style>
+    <link rel="stylesheet" href="priority.css">
+</head>
+<body>
+    <p style="background-color:bisque">Inline css vs Internal css vs External css</p>
+    <i>Inline css has the highest priority</i>
+    <br>
+
+    <h4>Internal css vs External css</h4>
+    <i>Both has same priority but based on order of declaration css is applied</i> <br>
+    <i>The one which is declared last will take precedence</i>
+    
+    <h3 id="id-1" class="class-1">Id vs Class</h3>
+    <i>Id has higher priority than class</i>
+
+    
+</body>
+</html>
